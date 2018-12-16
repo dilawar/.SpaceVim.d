@@ -61,6 +61,9 @@ func! myspacevim#before() abort
 	" vim-clang options
 	let g:clang_compilation_database='.'
 	let g:clang_verbose_pmenu=1
+
+  " leader key
+  let mapleader="\\"
 endf
 
 func! myspacevim#after() abort
