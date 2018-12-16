@@ -27,7 +27,7 @@
     statusline_unicode_symbols = false
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
-    disabled_plugins = ["neomake.vim"]
+    disabled_plugins = []
 
 # Enable autocomplete layer
 [[layers]]
