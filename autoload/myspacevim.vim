@@ -35,8 +35,6 @@ func! myspacevim#before() abort
 	" line wrap: remove comment leader when joining lines
 	set fo+=j
 
-  " change directory on fly.
-  set autochdir
 
 	" vim-table-mode config
 	" TODO make it language-specific feature for RST
@@ -230,4 +228,5 @@ func! myspacevim#after() abort
 
 	" disable spell check for some filetypes
 	autocmd Filetype diff,gitrebase,plantuml,yaml setlocal nospell
+
 endf
