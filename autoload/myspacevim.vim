@@ -63,7 +63,7 @@ func! myspacevim#before() abort
 	let g:clang_verbose_pmenu=1
 
   " leader key
-  let mapleader="\\"
+  " let mapleader="\\"
 endf
 
 func! myspacevim#after() abort
