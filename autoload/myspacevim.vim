@@ -35,6 +35,9 @@ func! myspacevim#before() abort
 	" line wrap: remove comment leader when joining lines
 	set fo+=j
 
+  " change directory on fly.
+  set autochdir
+
 	" vim-table-mode config
 	" TODO make it language-specific feature for RST
 	" with the , leader key from spacevim
