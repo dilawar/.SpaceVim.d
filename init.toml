@@ -44,3 +44,6 @@ default_height = 30
 name = 'checkers'
 enable = false
 show_cursor_error = false
+
+[[custom_plugins]]
+name = 'chrisbra/unicode.vim'
