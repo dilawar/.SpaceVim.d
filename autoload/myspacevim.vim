@@ -222,7 +222,11 @@ func! myspacevim#before() abort
 
   " set textwidth
   set textwidth=78
+
+  " Change to current directory. autochdir does not always work see 
+  " https://vim.wikia.com/wiki/Set_working_directory_to_the_current_file
   set autochdir
+  autocmd BufEnter * if expand("%:p:h") !~ '^/tmp' | silent! lcd %:p:h | endif
 
 endf
 
