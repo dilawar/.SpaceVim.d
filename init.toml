@@ -30,6 +30,9 @@
     # indentline is stupid. It does not work well with conceal.
     disabled_plugins = [ "indentLine"]
 
+    # force root directory to be the directory of current file.
+    project_rooter_automatically = 0
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
@@ -66,8 +69,6 @@ name = "lang#sh"
 
 [[layers]]
 name = "lang#tags"
-
-
 
 [[custom_plugins]]
 name = 'chrisbra/unicode.vim'

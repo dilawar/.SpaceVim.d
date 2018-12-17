@@ -235,9 +235,4 @@ func! myspacevim#after() abort
 	" disable spell check for some filetypes
 	autocmd Filetype diff,gitrebase,plantuml,yaml setlocal nospell
 
-  " Change to current directory. autochdir does not always work see 
-  " https://vim.wikia.com/wiki/Set_working_directory_to_the_current_file
-  set autochdir
-  autocmd BufEnter * if expand("%:p:h") !~ '^/tmp' | silent! lcd %:p:h | endif
-
 endf
