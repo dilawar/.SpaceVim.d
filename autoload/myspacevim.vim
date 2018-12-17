@@ -220,6 +220,9 @@ func! myspacevim#before() abort
   " tex_conceal
   let g:tex_conceal = "abs"
 
+  " set textwidth
+  set textwidth=78
+
 endf
 
 func! myspacevim#after() abort
