@@ -222,6 +222,7 @@ func! myspacevim#before() abort
 
   " set textwidth
   set textwidth=78
+  set autochdir
 
 endf
 
