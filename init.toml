@@ -46,5 +46,29 @@ name = 'checkers'
 enable = false
 show_cursor_error = false
 
+[[layers]]
+name = "lang#latex"
+
+[[layers]]
+name = "lang#python"
+
+[[layers]]
+name = "lang#php"
+
+[[layers]]
+name = "lang#c"
+
+[[layers]]
+name = "lang#git"
+
+[[layers]]
+name = "lang#sh"
+
+[[layers]]
+name = "lang#tags"
+
+
+
 [[custom_plugins]]
 name = 'chrisbra/unicode.vim'
+
