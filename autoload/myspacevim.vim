@@ -217,6 +217,9 @@ func! myspacevim#before() abort
   set wildmenu
   set conceallevel=0
 
+  " tex_conceal
+  let g:tex_conceal = "abs"
+
 endf
 
 func! myspacevim#after() abort
