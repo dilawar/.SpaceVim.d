@@ -32,8 +32,11 @@
     disabled_plugins = [ "indentLine"]
 
     # force root directory to be the directory of current file.
-    project_rooter_automatically = 0
-    project_rooter_pattern = []
+    project_rooter_patterns = []
+    project_rooter_automatically = 1
+
+    # snippet engine
+    snippet_engine = 'ultisnips'
 
 # Enable autocomplete layer
 [[layers]]
