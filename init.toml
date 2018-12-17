@@ -25,6 +25,7 @@
     enable_tabline_filetype_icon = false
     enable_statusline_display_mode = false
     statusline_unicode_symbols = false
+
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
     # indentline is stupid. It does not work well with conceal.
@@ -32,6 +33,7 @@
 
     # force root directory to be the directory of current file.
     project_rooter_automatically = 0
+    project_rooter_pattern = []
 
 # Enable autocomplete layer
 [[layers]]
